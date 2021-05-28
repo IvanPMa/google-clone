@@ -69,3 +69,33 @@ $font-navbar: arial,'Roboto', sans-serif;
     }
 
 }
+
+
+// Search
+.search{
+    margin-top: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    &__logo{
+        margin-bottom: 30px;
+    }
+    &__form{
+        height: 44px;
+        width: 597px;
+        border: 1px solid red;
+        display: flex;
+        border-radius: 20px;
+        border: 1px solid #e0e2e6;
+
+        &__button{
+            width: 24px;
+        }
+        &__input{
+            width: calc(100%-48px);
+        }
+
+    }
+}
