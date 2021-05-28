@@ -10,6 +10,7 @@ html {
 
 .container {
   width: 100%;
+  overflow: hidden;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -155,7 +156,7 @@ html {
   background-color: #f8f9fa;
   border: 0;
   margin: 0 4px;
-  font-size: 10px 14px;
+  font-size: 14px;
   padding: 14px;
   cursor: pointer;
   color: #3c4043;
@@ -169,7 +170,7 @@ html {
 }
 
 .search__footer {
-  margin-bottom: 170px;
+  margin-bottom: 140px;
   font-size: small;
 }
 
@@ -180,7 +181,7 @@ html {
 .footer {
   top: 0;
   width: 100%;
-  height: 95px;
+  height: 100%;
   background-color: #f2f2f2;
 }
 /*# sourceMappingURL=styles.css.map */
