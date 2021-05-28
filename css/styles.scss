@@ -8,6 +8,7 @@ html {
 
 // fonts 
 $text-navbar: rgba(0,0,0,0.87);
+$button-hover: #f2f2f2;
 $font-navbar: arial,'Roboto', sans-serif;
 
 .container{
@@ -52,12 +53,15 @@ $font-navbar: arial,'Roboto', sans-serif;
         background-color: white;
         border-radius: 100%;
         cursor: pointer;
-        height: 45px;
-        width: 45px;
+        height: 40px;
+        width: 40px;
         padding: 0px;
         margin-right: -10px;
         border: 0;
-        opacity: 0.6;
+        opacity: 0.5;
+    }
+    &__button:hover{
+        background-color: $button-hover;
     }
     &__img{
         border-radius: 100%;
