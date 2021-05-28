@@ -21,6 +21,7 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: arial, "Roboto", sans-serif;
 }
 
 .header {
@@ -87,7 +88,7 @@ html {
 }
 
 .search {
-  margin-top: 140px;
+  margin-top: 60px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -106,21 +107,35 @@ html {
 }
 
 .search__form {
-  height: 44px;
+  height: 45px;
   width: 597px;
   border: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-radius: 20px;
+  border-radius: 30px;
   border: 1px solid #e0e2e6;
+  margin-bottom: 35px;
 }
 
 .search__form__button {
-  width: 24px;
+  width: 45px;
+  background-color: transparent;
+  border: 0;
+  padding: 10px 15px;
+  opacity: 0.3;
+}
+
+.search__form__button:last-child {
+  margin-right: 12px;
 }
 
 .search__form__input {
-  width: calc(100%-48px);
+  width: 535px;
+  border: 0;
+}
+
+.search__form__input:focus {
+  outline: none;
 }
 /*# sourceMappingURL=styles.css.map */
