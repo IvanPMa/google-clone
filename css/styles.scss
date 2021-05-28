@@ -78,6 +78,7 @@ $font-navbar: arial,'Roboto', sans-serif;
 .search{
     margin-top: 60px;
     width: 100%;
+    height: calc(100vh - 205px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,9 +133,7 @@ $font-navbar: arial,'Roboto', sans-serif;
             color: #3c4043;
         }
         &__submit:hover{
-            box-shadow: 0 1px 1px rgba(0,0,0,.1);
-            background-color: #f8f9fa;
-            border: 1px solid #dadce0;
+            box-shadow: 0 1px 1px rgba(0,0,0,0.2);
         }
     }
 
@@ -149,11 +148,14 @@ $font-navbar: arial,'Roboto', sans-serif;
 }
 $color-footer : #f2f2f2;
 .footer{
-    top: 0;
+    
     width: 100%;
-    height: 100%;
+    height: 95px;
     background-color: $color-footer;
     .region{
-        
+        padding: 15px 30px;
+        border-bottom: 1px solid #dadce0;
+        font-size: 15px;
+        color: rgba(0,0,0,.54)
     }
 }
