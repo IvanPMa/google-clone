@@ -13,11 +13,12 @@ $font-navbar: arial,'Roboto', sans-serif;
 
 .container{
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: $font-navbar;
+    flex-wrap: wrap;
 }
 
 .header{
@@ -111,4 +112,45 @@ $font-navbar: arial,'Roboto', sans-serif;
         }
 
     }
+
+    &__form:hover{
+        box-shadow: 0px 0px 10px #e0e2e6;
+    }
+    
+    $color-buttons : #f8f9fa;
+    &__buttons{
+        height: 35px;
+        margin-bottom: 32px;
+        &__submit{
+            background-color: $color-buttons;
+            border: 0;
+            margin: 0 4px;
+            font-size: 10px 14px;
+            padding: 14px;
+            cursor: pointer;
+            color: #3c4043;
+        }
+        &__submit:hover{
+            box-shadow: 0 1px 1px rgba(0,0,0,.1);
+            background-color: #f8f9fa;
+            border: 1px solid #dadce0;
+        }
+    }
+
+    &__footer{
+        margin-bottom: 170px;
+        font-size: small;
+        
+        &__link{
+            text-decoration: none;
+        }
+    }
+}
+$color-footer : #f2f2f2;
+.footer{
+    top: 0;
+    width: 100%;
+    height: 95px;
+    background-color: $color-footer;
+    
 }
